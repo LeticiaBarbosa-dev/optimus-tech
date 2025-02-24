@@ -40,14 +40,14 @@ button {
   cursor: pointer;
 }
 
-#entrar {
+#btn-entrar {
   background-color: transparent;
   border: 0;
   color: #667085;
   font-weight: 500;
 }
 
-#cadastrar {
+#btn-cadastrar {
   background-color: #8E2424;
   border-color: #8E2424;
   color: #FFFFFF;
