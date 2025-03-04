@@ -6,7 +6,7 @@
 
 :root {
   --text-color: #667085;
-  --main-color: #8E2424;
+  --main-color: #8e2424;
 }
 a {
   text-decoration: none;
@@ -54,7 +54,7 @@ button {
 #btn-cadastrar {
   background-color: var(--main-color);
   border-color: var(--main-color);
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
 
   padding: 10px 18px;
@@ -84,3 +84,35 @@ button {
   color: var(--text-color);
 }
 
+.metricas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px 0 80px;
+  gap: 32px;
+}
+
+.met_item {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.met_item .title {
+  color: var(--main-color);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.met_item .subtitle {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.met_item p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+}
